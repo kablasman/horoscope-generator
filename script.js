@@ -1,5 +1,8 @@
 const button = document.querySelector('.button')
 const daily = document.querySelector('.daily')
+const career = document.querySelector('.career')
+const health = document.querySelector('.health')
+const love = document.querySelector('.love')
 const date = document.querySelector('.date')
 
 button.addEventListener("click", function() {
@@ -16,11 +19,18 @@ button.addEventListener("click", function() {
     .then(response =>response.json())
     .then(response => {
         console.log(response);
-        const displayHoroscope = response[`${selectSign}`]['Daily'];
+        const displayHoroscope1 = response[`${selectSign}`]['Daily'];
+        const displayHoroscope2 = response[`${selectSign}`]['Career'];
+        const displayHoroscope3 = response[`${selectSign}`]['Health'];
+        const displayHoroscope4 = response[`${selectSign}`]['Love'];
         const displayDate = response['Date'];
 
+
         date.innerHTML = displayDate;
-        daily.innerHTML = displayHoroscope;
+        daily.innerHTML = `<h2>Daily</h2> ${displayHoroscope1}`;
+        career.innerHTML = `<h2>Career</h2> ${displayHoroscope2}`;
+        health.innerHTML = `<h2>Health</h2> ${displayHoroscope3}`;
+        love.innerHTML = `<h2>Love</h2> ${displayHoroscope4}`;
 
 
     })
