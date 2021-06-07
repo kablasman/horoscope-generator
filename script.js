@@ -1,4 +1,6 @@
 const button = document.querySelector('.button')
+const daily = document.querySelector('.daily')
+const date = document.querySelector('.date')
 
 button.addEventListener("click", function() {
     const selectSign = document.querySelector('#inputValue').value;
@@ -14,6 +16,13 @@ button.addEventListener("click", function() {
     .then(response =>response.json())
     .then(response => {
         console.log(response);
+        const displayHoroscope = response[`${selectSign}`]['Daily'];
+        const displayDate = response['Date'];
+
+        date.innerHTML = displayDate;
+        daily.innerHTML = displayHoroscope;
+
+
     })
     .catch(err => {
         console.error(err);
