@@ -8,10 +8,28 @@ header {
 
 h1 {
     color: white;
+    text-align: center;
 }
 
 body {
     margin: auto;
     background-color: #251e3e;
     font-family: 'Poppins', sans-serif;
+}
+
+p {
+    margin: 0 5em;
+    align-content: center;
+}
+
+.input {
+    padding: 5em 0;
+    padding-bottom: 3em;
+    align-content: center;
+    text-align: center;
+}
+
+.display {
+    color: white;
+    margin-bottom: 3em;
 }
