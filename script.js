@@ -14,14 +14,6 @@ button.addEventListener("click", function() {
     .then(response =>response.json())
     .then(response => {
         console.log(response);
-
-        //document.getElementById('horoscope').innerHTML = 
-        //`<header>
-        //<div class="book-picture">
-        //</div>
-        //<h3>${response.Aries.Career}</h3>
-        //<h4>${response.Aries.Daily}</h4>
-        //</header>`
     })
     .catch(err => {
         console.error(err);
