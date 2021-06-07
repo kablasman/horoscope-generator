@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 header {
-    background-color: #2C234A;
-    padding: 2em;
+    background-image: url(img/nathan-anderson-N6un95YPX5M-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #53728a;
+    background-blend-mode:luminosity;
+    padding: 2.5em;
     margin: 0;
+    font-size: 1.2em;
+    box-shadow: 0px 1px 3px #314855;
 }
 
 h1 {
@@ -11,15 +18,37 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
 body {
     margin: auto;
-    background-color: #251e3e;
+    background-color: #BED3DF;
     font-family: 'Poppins', sans-serif;
 }
 
 p {
     margin: 0 5em;
     align-content: center;
+    font-family: 'DM Sans', sans-serif;
+    background-color:#8DB2C8;
+    padding: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-radius: 2em;
+    box-shadow: 0px 1px 3px #53728a;
+}
+
+input {
+    border-radius: 2em;
+    border: none;
+    padding: 0.3em 0.5em;
+    box-shadow: 0px 1px 3px #5D92B0;
+    font-family: 'DM Sans', sans-serif;
+    background-color: white;
 }
 
 .input {
@@ -32,4 +61,9 @@ p {
 .display {
     color: white;
     margin-bottom: 3em;
+}
+
+.date {
+    color: #53728a;
+    padding-bottom: 1.5em;
 }
