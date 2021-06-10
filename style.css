@@ -2,15 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 header {
-    background-image: url(img/nathan-anderson-N6un95YPX5M-unsplash.jpg);
+    background-image: url(img/SAGITTARIUS_lede_social.jpeg);
     background-size:cover;
     background-repeat: no-repeat;
-    background-color: #53728a;
-    background-blend-mode:luminosity;
-    padding: 2.5em;
+    padding: 4em 1em;
     margin: 0;
-    font-size: 1.2em;
-    box-shadow: 0px 1px 3px #314855;
+    box-shadow: 0px 1px 3px #b9a887;
 }
 
 h1 {
@@ -19,51 +16,60 @@ h1 {
 }
 
 h2 {
-    font-family: 'Poppins', sans-serif;
-    color: white;
+    color: black;
 }
 
 body {
     margin: auto;
-    background-color: #BED3DF;
-    font-family: 'Poppins', sans-serif;
+    background-color: #fff0d5;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 2em;
+    width: 100%;
 }
 
 p {
-    margin: 0 5em;
+    margin: 0 3em;
     align-content: center;
-    font-family: 'DM Sans', sans-serif;
-    background-color:#8DB2C8;
-    padding: 1em;
-    padding-top: 0.5em;
-    padding-bottom: 2em;
-    margin-bottom: 2em;
     border-radius: 2em;
-    box-shadow: 0px 1px 3px #53728a;
 }
 
 input {
     border-radius: 2em;
     border: none;
-    padding: 0.3em 0.5em;
-    box-shadow: 0px 1px 3px #5D92B0;
+    padding: 0.5em 0.6em;
+    box-shadow: 0px 1px 3px #b9a887;
     font-family: 'DM Sans', sans-serif;
     background-color: white;
 }
 
 .input {
-    padding: 5em 0;
     padding-bottom: 3em;
     align-content: center;
     text-align: center;
 }
 
-.display {
+.button {
+    background-color: #F55C6A;
     color: white;
+}
+.display {
+    color: black;
     margin-bottom: 3em;
 }
 
 .date {
-    color: #53728a;
-    padding-bottom: 1.5em;
+    color: black;
+}
+
+.text {
+    padding: 3em 0;
+}
+
+@media screen and (min-width: 45em) {
+    
+    p {
+        justify-content: center;
+        max-width: 35em;
+        margin: auto;
+    }
 }
