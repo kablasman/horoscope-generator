@@ -12,6 +12,7 @@ button.addEventListener("click", function() {
     // creating variable for text input
     const selectSign = document.querySelector('#inputValue').value;
     
+    // calling API 
     function getHoroscope() {
     fetch(`https://devbrewer-horoscope.p.rapidapi.com/today/long/${selectSign}`, {
     "method": "GET",
@@ -32,12 +33,12 @@ button.addEventListener("click", function() {
         const displayDate = response['Date'];
 
         // displaying data from array
+
         date.innerHTML = displayDate;
         daily.innerHTML = `<h2>Daily</h2> ${displayHoroscope1}`;
         career.innerHTML = `<h2>Career</h2> ${displayHoroscope2}`;
         health.innerHTML = `<h2>Health</h2> ${displayHoroscope3}`;
         love.innerHTML = `<h2>Love</h2> ${displayHoroscope4}`;
-
 
     })
     .catch(err => {
