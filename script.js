@@ -34,12 +34,18 @@ button.addEventListener("click", function() {
 
         // displaying data from array
 
-        date.innerHTML = displayDate;
-        daily.innerHTML = `<h2>Daily</h2> ${displayHoroscope1}`;
-        career.innerHTML = `<h2>Career</h2> ${displayHoroscope2}`;
-        health.innerHTML = `<h2>Health</h2> ${displayHoroscope3}`;
-        love.innerHTML = `<h2>Love</h2> ${displayHoroscope4}`;
-
+        const divWrapper = document.querySelector('.display');
+        divWrapper.innerHTML = `
+        <h1 class="date">${displayDate}</h1>
+        <h2 class="daily">Daily</h2>
+        <p> ${displayHoroscope1}</p>
+        <h2 class="career">Career</h2>
+        <p> ${displayHoroscope2}</p>
+        <h2 class="health">Health</h2>
+        <p> ${displayHoroscope3}</p>
+        <h2 class="love">Love</h2>
+        <p> ${displayHoroscope4}</p>
+        `
     })
     .catch(err => {
         console.error(err);
