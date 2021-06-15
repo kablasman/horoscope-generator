@@ -14,8 +14,7 @@ header {
 
 h1 {
     color: black;
-    padding-left: 1em;
-    font-size: 2.5em;
+    text-align: center;
 }
 
 h2 {
@@ -49,13 +48,12 @@ p {
 input {
     border-radius: 2em;
     border: none;
-    padding: 0.5em 0.6em;
+    padding: 0.6em;
     font-family: 'DM Sans', sans-serif;
     background-color: white;
 }
 
 img {
-    width: 15%;
     text-align: center;
     margin: auto;
     display: block;
@@ -70,7 +68,10 @@ img {
 .button {
     background-color: #ffe388;
     color: black;
+    width: 5em;
+    padding: 0.7em 0;
 }
+
 .display {
     color: white;
     margin-bottom: 3em;
@@ -98,5 +99,10 @@ img {
         justify-content: center;
         max-width: 35em;
         margin: auto;
+    }
+
+    h1 {
+        text-align: left;
+        padding-left: 1em;
     }
 }
