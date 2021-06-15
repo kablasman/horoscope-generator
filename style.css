@@ -1,45 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 header {
-    background-image: url(img/SAGITTARIUS_lede_social.jpeg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    padding: 4em 1em;
+    padding: 0.3em;
     margin: 0;
-    box-shadow: 0px 1px 3px #b9a887;
+    background-color:#ffdead;
+    background-image: url(img/jeremy-perkins-uhjiu8FjnsQ-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    font-family: 'MuseoModerno', cursive;
 }
 
 h1 {
-    color: white;
-    text-align: center;
+    color: black;
+    padding-left: 1em;
+    font-size: 2.5em;
 }
 
 h2 {
-    color: black;
+    color: white;
+    margin: auto;
+    padding: 1em;
+    font-family: 'MuseoModerno', cursive;;
 }
 
 body {
     margin: auto;
-    background-color: #fff0d5;
+    background-color: rgb(131, 131, 131);
+    background-blend-mode: multiply;
     font-family: 'DM Sans', sans-serif;
-    margin-bottom: 2em;
+    margin-bottom: 6em;
     width: 100%;
+    background-image: url(img/jeremy-perkins-uhjiu8FjnsQ-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 
 p {
     margin: 0 3em;
     align-content: center;
-    border-radius: 2em;
+    color: white;
+    padding: 0;
 }
 
 input {
     border-radius: 2em;
     border: none;
     padding: 0.5em 0.6em;
-    box-shadow: 0px 1px 3px #b9a887;
     font-family: 'DM Sans', sans-serif;
     background-color: white;
+}
+
+img {
+    width: 15%;
+    text-align: center;
+    margin: auto;
+    display: block;
 }
 
 .input {
@@ -49,16 +68,19 @@ input {
 }
 
 .button {
-    background-color: #F55C6A;
-    color: white;
+    background-color: #ffe388;
+    color: black;
 }
 .display {
-    color: black;
+    color: white;
     margin-bottom: 3em;
 }
 
 .date {
-    color: black;
+    color: white;
+    text-align: center;
+    padding-left: 0;
+    font-family: 'MuseoModerno', cursive;;
 }
 
 .text {
@@ -67,6 +89,11 @@ input {
 
 @media screen and (min-width: 45em) {
     
+    h2 {
+        max-width: 25em;
+        margin: auto;
+    }
+   
     p {
         justify-content: center;
         max-width: 35em;
