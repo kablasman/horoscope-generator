@@ -36,6 +36,7 @@ button.addEventListener("click", function() {
 
         const divWrapper = document.querySelector('.display');
         divWrapper.innerHTML = `
+        <img src="img/Moon_rotating_full_220px.gif" alt="">
         <h1 class="date">${displayDate}</h1>
         <h2 class="daily">Daily</h2>
         <p> ${displayHoroscope1}</p>
