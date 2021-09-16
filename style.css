@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
 
 header {
-    padding: 0.1em;
+    padding: 2.07em;
     margin: 0;
+    padding-left: 1em;
     background-color:#bcd6f0;
     background-image: url(img/jeremy-perkins-uhjiu8FjnsQ-unsplash\ \(1\).jpg);
     background-size: cover;
@@ -16,6 +17,7 @@ header {
 h1 {
     color: black;
     text-align: center;
+    margin: 0;
 }
 
 h2 {
@@ -50,7 +52,7 @@ input {
     border-radius: 2em;
     border: none;
     padding: 0.6em;
-    padding-top: 0.82em;
+    padding-top: 1em;
     font-family: 'Spartan', sans-serif;
     background-color: white;
 }
@@ -104,6 +106,5 @@ img {
 
     h1 {
         text-align: left;
-        padding-left: 0.8em;
     }
 }
