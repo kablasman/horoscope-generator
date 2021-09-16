@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
 
 header {
-    padding: 0.3em;
+    padding: 0.1em;
     margin: 0;
-    background-color:#ffdead;
+    background-color:#bcd6f0;
     background-image: url(img/jeremy-perkins-uhjiu8FjnsQ-unsplash\ \(1\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
-    font-family: 'MuseoModerno', cursive;
+    font-family: 'Spartan', sans-serif;
 }
 
 h1 {
@@ -21,14 +22,14 @@ h2 {
     color: white;
     margin: auto;
     padding: 1em;
-    font-family: 'MuseoModerno', cursive;;
+    font-family: 'Spartan', sans-serif;
 }
 
 body {
     margin: auto;
     background-color: rgb(131, 131, 131);
     background-blend-mode: multiply;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Spartan', sans-serif;
     margin-bottom: 6em;
     width: 100%;
     background-image: url(img/jeremy-perkins-uhjiu8FjnsQ-unsplash\ \(1\).jpg);
@@ -40,7 +41,7 @@ body {
 
 p {
     margin: 0 3em;
-    align-content: center;
+    text-align: justify;
     color: white;
     padding: 0;
 }
@@ -49,7 +50,8 @@ input {
     border-radius: 2em;
     border: none;
     padding: 0.6em;
-    font-family: 'DM Sans', sans-serif;
+    padding-top: 0.82em;
+    font-family: 'Spartan', sans-serif;
     background-color: white;
 }
 
@@ -66,7 +68,7 @@ img {
 }
 
 .button {
-    background-color: #ffe388;
+    background-color: #7db5ed;
     color: black;
     width: 5em;
 }
@@ -80,7 +82,7 @@ img {
     color: white;
     text-align: center;
     padding-left: 0;
-    font-family: 'MuseoModerno', cursive;;
+    font-family: 'Spartan', sans-serif;
 }
 
 .text {
@@ -102,6 +104,6 @@ img {
 
     h1 {
         text-align: left;
-        padding-left: 1em;
+        padding-left: 0.8em;
     }
 }
